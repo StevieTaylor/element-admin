@@ -1,9 +1,9 @@
 <template>
   <div>
     <el-table :data="articles" style="width: 100%">
-      <el-table-column prop="title" label="文章标题" width="200">
+      <el-table-column prop="title" label="标题" width="200">
       </el-table-column>
-      <el-table-column prop="content" label="文章内容" width="900">
+      <el-table-column prop="content" label="内容" width="900">
       </el-table-column>
       <el-table-column label="操作" fixed="right">
         <template slot-scope="scope">
