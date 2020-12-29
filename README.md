@@ -1,24 +1,31 @@
 # element-admin
+一个用Vue.js + node.js + element-ui开发的博客管理系统
 
-## Project setup
+### 安装和准备
+
 ```
-npm install
+1.本地安装mongodb，配置环境
+2.npm install nodemon -g 全局安装nodemon
+3.npm install
 ```
 
-### Compiles and hot-reloads for development
+### 启动Server
+```
+1.启动mongodb
+2.nodemon server
+```
+
+### 启动前端
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 项目构建
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### 项目Lint
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
